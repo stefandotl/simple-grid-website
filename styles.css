@@ -1,0 +1,22 @@
+.nav-wrapper {
+    display: flex;  /*Flexible Abschnittsgröße*/
+    justify-content: space-between; /* Nutzt den ganzen Platz zwischen den divs */
+    padding: 38px; /* Abstand zum Rand */
+}
+
+.left-side {
+    display: flex;
+}
+
+/* Take .nav-wrapper, take after that .left-side, then  take all divs inside*/
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em; /*e= percent*/    
+    text-transform: uppercase; /*you can also change text-form in css*/
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s; /*half second, Animation*/
+}
