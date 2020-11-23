@@ -1,7 +1,5 @@
 -textEditor : Atom, sublime Text
 
-- go on a page you like and copy the code you want?
-
 ToDos.
 
 1. Build the Project
